@@ -1,0 +1,4 @@
+vendor/
+reports/
+*.env
+node_modules/
