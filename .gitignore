@@ -1,4 +1,30 @@
-vendor/
+# Ignore database config
+db.php
+
+# Ignore uploads/reports folder
 reports/
-*.env
+
+# Ignore OS files
+Thumbs.db
+.DS_Store
+
+# Ignore logs
+*.log
+
+# Ignore Composer vendor folder (if using)
+vendor/
+
+# Ignore Node modules (if any frontend build)
 node_modules/
+
+# Ignore environment files
+.env
+
+# Ignore IDE/editor configs
+.vscode/
+.idea/
+
+# Ignore temporary files
+*.tmp
+*.bak
+
